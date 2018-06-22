@@ -4,7 +4,7 @@
 .container{
     display:grid;
     grid-template-columns:repeat(9, 1fr);
-    grid-template-rows:repeat(10, 50px);
+    grid-template-rows:repeat(20, 50px);
     margin:0px;
 }
 .logo{
@@ -49,3 +49,69 @@
     align-items:center;
     flex-flow:column;
 }
+.locationOne{
+    grid-column:span 6;
+    grid-row:span 7;
+    display:flex;
+    justify-content:center;
+    flex-flow:column;
+    margin-left:10%;
+    max-height:300px;
+    min-width:500px;
+}
+    .locationOne h1 {
+        margin-bottom: 0px;
+        font-size: 25px;
+    }
+    .locationOne p {
+        
+        font-size: 17px;
+    }
+.locationsImage {
+    grid-column: span 3;
+    grid-row: span 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .locationsImage img {
+        height: 245px;
+        width:90%;
+    }
+
+
+
+.locationTwo {
+    grid-column: span 6;
+    grid-row: span 7;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    max-height: 300px;
+    min-width: 500px;
+}
+
+    .locationTwo h1 {
+        margin-bottom: 0px;
+        font-size: 25px;
+        margin-right: 10%;
+    }
+
+    .locationTwo p {
+        font-size: 17px;
+        margin-right: 10%;
+    }
+
+.locationsImageTwo {
+    grid-column: span 3;
+    grid-row: span 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .locationsImageTwo img {
+        height: 245px;
+        width: 90%;
+    }
+
+

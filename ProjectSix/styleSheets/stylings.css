@@ -43,3 +43,35 @@
     font-size:20px;
     margin-top:0px;
 }
+.button {
+    background-color: rgb(71, 78, 93);
+    border: none;
+    color: white;
+    padding:10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    max-width:25%;
+}
+.buttonWhite {
+    background-color: white;
+    border: none;
+    color: rgb(71, 78, 93);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    max-width: 25%;
+}
+.locationOne {
+    color: rgb(71, 78, 93);
+}
+.locationTwo {
+    color: white;
+    background-color: rgb(71, 78, 93);
+}
+.locationsImageTwo {
+    background-color: rgb(71, 78, 93);
+}
