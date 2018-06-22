@@ -4,7 +4,7 @@
 .container{
     display:grid;
     grid-template-columns:repeat(9, 1fr);
-    grid-template-rows:repeat(20, 50px);
+    grid-template-rows:repeat(100, 50px);
     margin:0px;
 }
 .logo{
@@ -42,7 +42,7 @@
     grid-row:span 8;
 }
 .locations{
-    grid-column:span 11;
+    grid-column:span 9;
     grid-row:span 3;
     display:flex;
     justify-content:center;
@@ -83,7 +83,7 @@
 
 .locationTwo {
     grid-column: span 6;
-    grid-row: span 7;
+    grid-row: span 6;
     display: flex;
     justify-content: center;
     flex-flow: column;
@@ -104,7 +104,7 @@
 
 .locationsImageTwo {
     grid-column: span 3;
-    grid-row: span 7;
+    grid-row: span 6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,5 +113,70 @@
         height: 245px;
         width: 90%;
     }
+.amenities {
+    grid-column: span 9;
+    grid-row: span 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin-bottom:3%;
+}
+.amenities p{
+    margin-bottom:3%;
+}
 
+.amenitiesButton1{
+    grid-column:span 3;
+    grid-row:span 9;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.amenitiesButton2 {
+    grid-column: span 3;
+    grid-row: span 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.amenitiesButton3 {
+    grid-column: span 3;
+    grid-row: span 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.amenitiesButton4 {
+    grid-column: span 3;
+    grid-row: span 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.amenitiesButton5 {
+    grid-column: span 3;
+    grid-row: span 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.amenitiesWords {
+    grid-column: span 3;
+    grid-row: span 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow:column;
+    text-align:center;
+}
+.reviews {
+    grid-column: span 9;
+    grid-row: span 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin-top: 3%;
+}
 

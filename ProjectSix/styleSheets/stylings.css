@@ -75,3 +75,73 @@
 .locationsImageTwo {
     background-color: rgb(71, 78, 93);
 }
+.amenities {
+    background-color: rgb(71, 78, 93);
+    color: rgb(255, 255, 255);
+}
+
+    .amenities h1 {
+        font-size: 40px;
+        margin-bottom: 0px;
+        margin-top: 5%;
+    }
+
+    .amenities p {
+        font-size: 20px;
+        margin-top: 0px;
+    }
+.amenitiesButton1 {
+    background-image: url('../Pictures/3b-348x348.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.amenitiesButton2 {
+    background-image: url('../Pictures/42-348x348.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.amenitiesButton3 {
+    background-image: url('../Pictures/314-348x348.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.amenitiesButton4 {
+    background-image: url('../Pictures/Villa-Rucellai-Toscani-2812-2-348x348.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.amenitiesButton5 {
+    background-image: url('../Pictures/Villa-Vanna-231-348x348.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.amenitiesWords {
+    color: rgb(71, 78, 93);
+}
+.buttonTranslucent {
+    background-color: rgba(71, 78, 93, 0.74);
+    border: none;
+    color: white;
+    padding:5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    max-width: 25%;
+}
+.reviews {
+    background-color: rgb(71, 78, 93);
+    color: rgb(255, 255, 255);
+}
+
+    .reviews h1 {
+        font-size: 40px;
+        margin-top:5%;
+        margin-bottom: 0px;
+    }
+
+    .reviews p {
+        font-size: 20px;
+        margin-bottom: 3%;
+        margin-top:0px;
+    }
