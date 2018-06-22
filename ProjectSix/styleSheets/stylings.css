@@ -1,0 +1,45 @@
+﻿body {
+}
+.logo {
+    background-color: rgb(71, 78, 93);
+}
+.topNav {
+    background-color: rgb(71, 78, 93);
+}
+.logo {
+    color: rgb(255, 255, 255);
+}
+.topNav {
+    color: rgb(255, 255, 255);
+}
+.tuscanyJumbotron {
+    background-image: url('../Pictures/tuscany-villas-sant-anna (1).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+}
+.tuscanyJumbotron h1 {
+    font-size: 75px;
+    margin: 0px;
+}
+.tuscanyJumbotron p {
+    font-size: 25px;
+}
+.map {
+    background-image: url('../Pictures/Versilia.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.locations {
+    background-color: rgb(71, 78, 93);
+    color: rgb(255, 255, 255);
+}
+.locations h1{
+    font-size:40px;
+    margin-bottom:0px;
+    margin-top:5%;
+}
+.locations p{
+    font-size:20px;
+    margin-top:0px;
+}
