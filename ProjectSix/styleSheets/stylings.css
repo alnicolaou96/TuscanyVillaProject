@@ -145,3 +145,10 @@
         margin-bottom: 3%;
         margin-top:0px;
     }
+.review {
+    color:rgb(71, 78, 93);
+}
+    .review p {
+        font-size: 25px;
+        margin:10px;
+    }
